@@ -1,0 +1,1 @@
+User.create! email: 'admin123@263.com', password: 'admin123'
