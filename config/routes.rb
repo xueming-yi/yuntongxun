@@ -10,6 +10,7 @@ Yuntongxun::Application.routes.draw do
     get :account_info, on: :member
     resources :calls do
       post :call_back, on: :collection
+      post :voice_verify, on: :collection
     end
     
   end
